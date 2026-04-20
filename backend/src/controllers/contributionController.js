@@ -17,9 +17,12 @@ const createContribution = async (req, res) => {
       data: contribution,
     });
   } catch (error) {
+    console.error('Error al registrar aporte:', error);
+
     return res.status(500).json({
       success: false,
       message: 'Error al registrar aporte',
+      error: error.message,
     });
   }
 };
