@@ -172,28 +172,34 @@ cd banquito-demo
 
 ### ⚙️ Configurar Backend
 
+```bash
 cd backend
 npm install
 npm run dev
+```
 
 ### ⚙️ Configurar Frontend
-
+```bash
 cd frontend
 npm install
 npm run dev
-
+```
 ---
 
 🔐 Variables de entorno
 
 Crear archivo .env en backend:
-
+```bash
 DATABASE_URL=
 PORT=3000
 JWT_SECRET=
 JWT_EXPIRES_IN=1d
+```
 
-✨ Funcionalidades
+---
+
+### ✨ Funcionalidades
+
 🔐 Autenticación con roles
 📊 Dashboard de usuario
 📊 Dashboard de administrador
@@ -202,20 +208,27 @@ JWT_EXPIRES_IN=1d
 📱 Diseño responsive
 📈 Cálculo de totales y promedios
 
-🚀 Estado del proyecto
+---
+
+### 🚀 Estado del proyecto
 
 ✔️ Funcional
 ✔️ Estructurado
 ✔️ Listo para despliegue
 
-🚧 Posibles mejoras
+---
+
+#### 🚧 Posibles mejoras
+
 Gráficas de ahorro (charts)
 Notificaciones en tiempo real
 Edición de usuarios
 Exportación de reportes
 Deploy completo en producción
 
-🤝 Contribución
+---
+
+### 🤝 Contribución
 
 Si deseas mejorar este proyecto:
 
@@ -224,6 +237,8 @@ Crea una rama (feature/nueva-funcionalidad)
 Haz commit de tus cambios
 Abre un Pull Request
 
-📣 Nota
+---
+
+### 📣 Nota
 
 Proyecto desarrollado como práctica de desarrollo fullstack, simulando un caso real con enfoque en funcionalidad, diseño y escalabilidad.
