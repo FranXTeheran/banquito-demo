@@ -164,7 +164,7 @@ PostgreSQL
 
 ### 1. Clonar el repositorio
 
-```bash
+
 git clone https://github.com/FranXTeheran/banquito-demo.git
 cd banquito-demo
 
