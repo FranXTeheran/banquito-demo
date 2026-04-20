@@ -200,31 +200,31 @@ JWT_EXPIRES_IN=1d
 
 ### ✨ Funcionalidades
 
-🔐 Autenticación con roles
-📊 Dashboard de usuario
-📊 Dashboard de administrador
-➕ Registro de aportes
-📋 Historial con scroll
-📱 Diseño responsive
-📈 Cálculo de totales y promedios
+- 🔐 Autenticación con roles
+- 📊 Dashboard de usuario
+- 📊 Dashboard de administrador
+- ➕ Registro de aportes
+- 📋 Historial con scroll
+- 📱 Diseño responsive
+- 📈 Cálculo de totales y promedios
 
 ---
 
 ### 🚀 Estado del proyecto
 
-✔️ Funcional
-✔️ Estructurado
-✔️ Listo para despliegue
+- ✔️ Funcional
+- ✔️ Estructurado
+- ✔️ Listo para despliegue
 
 ---
 
 #### 🚧 Posibles mejoras
 
-Gráficas de ahorro (charts)
-Notificaciones en tiempo real
-Edición de usuarios
-Exportación de reportes
-Deploy completo en producción
+- Gráficas de ahorro (charts)
+- Notificaciones en tiempo real
+- Edición de usuarios
+- Exportación de reportes
+- Deploy completo en producción
 
 ---
 
@@ -232,10 +232,10 @@ Deploy completo en producción
 
 Si deseas mejorar este proyecto:
 
-Haz un fork
-Crea una rama (feature/nueva-funcionalidad)
-Haz commit de tus cambios
-Abre un Pull Request
+- Haz un fork
+- Crea una rama (feature/nueva-funcionalidad)
+- Haz commit de tus cambios
+- Abre un Pull Request
 
 ---
 
