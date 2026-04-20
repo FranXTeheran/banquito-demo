@@ -1,85 +1,229 @@
+# 💰 Banquito App
+
+<p align="center">
+  Plataforma web fullstack para la gestión de ahorro grupal, con control administrativo y visualización clara para usuarios.
+</p>
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="./screenshots/login.png" width="1000"/>
+</p>
+<p align="center">
+  <em>Pantalla de inicio de sesión</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="./screenshots/userDash.png" width="900"/>
+</p>
+<p align="center">
+  <em>Dashboard del usuario con resumen de ahorro</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="./screenshots/adminDash.png" width="900"/>
+</p>
+<p align="center">
+  <em>Panel administrativo con control del fondo</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="./screenshots/adminAportes.png" width="900"/>
+</p>
+<p align="center">
+  <em>Registro de aportes por el administrador</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="./screenshots/responAdmin.png" width="400"/>
+</p>
+<p align="center">
+  <em>Vista responsive (Administrador)</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="./screenshots/responUser.png" width="400"/>
+</p>
+<p align="center">
+  <em>Vista responsive (Usuario)</em>
+</p>
+
+---
+
 ## 💡 Descripción del Proyecto
 
-**"Mi Banquito"** es una aplicación web fullstack diseñada para la gestión de ahorro grupal, donde múltiples usuarios pueden realizar aportes económicos de forma organizada y transparente, mientras un administrador supervisa y controla el flujo de dinero.
+**"Mi Banquito"** es una aplicación diseñada para gestionar fondos compartidos de manera clara, estructurada y transparente.
 
-La idea nace de una necesidad común en entornos reales como:
-- grupos de amigos
-- familias
-- asociaciones
-- equipos de trabajo
+Nace de una necesidad común en entornos reales como:
 
-donde se manejan fondos compartidos (ahorros, colectas, fondos rotativos, etc.), pero sin herramientas claras para llevar el control.
+- 👨‍👩‍👧‍👦 Familias  
+- 👥 Grupos de amigos  
+- 🏢 Equipos de trabajo  
+- 🤝 Asociaciones  
 
----
-
-## 🎯 ¿Para qué se creó?
-
-Este proyecto fue desarrollado con el objetivo de:
-
-- Simular un sistema real de gestión financiera simple
-- Practicar arquitectura fullstack moderna
-- Implementar autenticación con roles (admin / user)
-- Diseñar dashboards funcionales con enfoque en UX/UI
-- Conectar frontend y backend mediante APIs reales
+donde se manejan fondos compartidos sin herramientas adecuadas.
 
 ---
 
-## 🧩 ¿Qué problema resuelve?
+## 🎯 Objetivos del proyecto
 
-En muchos casos, el control de aportes se hace de forma manual:
-- hojas de cálculo
-- mensajes en WhatsApp
-- anotaciones informales
+- Simular un sistema real de gestión financiera  
+- Implementar arquitectura fullstack moderna  
+- Aplicar autenticación con roles (admin / user)  
+- Diseñar dashboards con enfoque UX/UI  
+- Conectar frontend y backend mediante APIs reales  
+
+---
+
+## 🧩 Problema que resuelve
+
+El control de dinero compartido suele hacerse mediante:
+
+- hojas de cálculo  
+- mensajes informales  
+- registros manuales  
 
 Esto genera:
-- falta de claridad
-- errores en cuentas
-- poca transparencia
 
-👉 **"Mi Banquito"centraliza toda esa información en una sola plataforma.**
+- ❌ falta de claridad  
+- ❌ errores en cálculos  
+- ❌ poca transparencia  
+
+👉 **Banquito centraliza toda la información en una sola plataforma.**
 
 ---
 
-## ⚙️ ¿Cómo funciona?
+## ⚙️ Funcionamiento
 
 ### 👨‍💼 Administrador
-- Registra aportes realizados por los usuarios
-- Visualiza el total acumulado del fondo
-- Consulta los últimos movimientos
-- Mantiene control general del sistema
+- Registra aportes  
+- Visualiza el total del fondo  
+- Consulta últimos movimientos  
+- Controla el sistema  
 
 ### 👤 Usuario
-- Consulta su ahorro acumulado
-- Visualiza su historial de aportes
-- Ve su último movimiento registrado
-- Tiene acceso a un panel claro y fácil de usar
+- Consulta su ahorro acumulado  
+- Visualiza su historial  
+- Revisa su último aporte  
+- Interfaz simple y clara  
 
 ---
 
-## 🏦 Casos de uso reales
-
-Este sistema puede adaptarse fácilmente a:
+## 🏦 Casos de uso
 
 - 💰 Fondos de ahorro grupales  
-- 🎓 Colectas para eventos o graduaciones  
-- 👨‍👩‍👧‍👦 Ahorros familiares compartidos  
-- 🏢 Fondos internos en equipos de trabajo  
-- 🤝 Asociaciones o grupos comunitarios  
+- 🎓 Colectas para eventos  
+- 👨‍👩‍👧‍👦 Ahorros familiares  
+- 🏢 Equipos de trabajo  
+- 🤝 Comunidades  
 
 ---
 
-## 🚀 Valor del proyecto
+## 🛠️ Tecnologías
 
-Más allá de ser un ejercicio técnico, este proyecto demuestra:
+### Frontend
+- React (Vite)
+- TailwindCSS
+- Axios
 
-- Implementación real de un flujo completo (login → acción → resultado)
-- Separación de responsabilidades (frontend / backend)
-- Manejo de estado y consumo de APIs
-- Diseño de interfaces con enfoque en experiencia de usuario
-- Aplicación práctica de conceptos que se usan en sistemas reales
+### Backend
+- Node.js
+- Express
+- Prisma ORM
+
+### Base de datos
+- PostgreSQL
 
 ---
 
-## 📌 En resumen
+## 🧠 Arquitectura
+Frontend (React)
+↓
+API REST (Express)
+↓
+Prisma ORM
+↓
+PostgreSQL
 
-**Banquito App** es una solución sencilla pero funcional para gestionar dinero en grupo, enfocada en claridad, control y facilidad de uso, mientras sirve como base sólida para escalar a funcionalidades más avanzadas.
+
+---
+
+## ⚙️ Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/FranXTeheran/banquito-demo.git
+cd banquito-demo
+
+---
+
+### ⚙️ Configurar Backend
+
+cd backend
+npm install
+npm run dev
+
+### ⚙️ Configurar Frontend
+
+cd frontend
+npm install
+npm run dev
+
+---
+
+🔐 Variables de entorno
+
+Crear archivo .env en backend:
+
+DATABASE_URL=
+PORT=3000
+JWT_SECRET=
+JWT_EXPIRES_IN=1d
+
+✨ Funcionalidades
+🔐 Autenticación con roles
+📊 Dashboard de usuario
+📊 Dashboard de administrador
+➕ Registro de aportes
+📋 Historial con scroll
+📱 Diseño responsive
+📈 Cálculo de totales y promedios
+
+🚀 Estado del proyecto
+
+✔️ Funcional
+✔️ Estructurado
+✔️ Listo para despliegue
+
+🚧 Posibles mejoras
+Gráficas de ahorro (charts)
+Notificaciones en tiempo real
+Edición de usuarios
+Exportación de reportes
+Deploy completo en producción
+
+🤝 Contribución
+
+Si deseas mejorar este proyecto:
+
+Haz un fork
+Crea una rama (feature/nueva-funcionalidad)
+Haz commit de tus cambios
+Abre un Pull Request
+
+📣 Nota
+
+Proyecto desarrollado como práctica de desarrollo fullstack, simulando un caso real con enfoque en funcionalidad, diseño y escalabilidad.
